@@ -1,0 +1,44 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+
+.container{
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    margin: 50px auto 50px;
+    border-radius: 5%;
+    position: relative;
+}
+
+img{
+    width: 350px;
+    border-radius: 5%;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+h2{
+    position: absolute;
+    bottom: 115px;
+    left: 40px;
+    right: 40px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+p{
+    color: hsl(220, 15%, 55%);
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    right: 40px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    
+}
